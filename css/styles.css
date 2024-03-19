@@ -15,29 +15,30 @@ body {
     background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .content-rating-stars {
+    margin: 0 30px;
     text-align: center;
     background-color: #dedede;
-    padding: 25px 30px;
-    border-radius: 16px;
-    -moz-box-shadow: 4px 4px 13px -3px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 4px 4px 13px -3px rgba(0,0,0,0.75);
-    box-shadow: 4px 4px 13px -3px rgba(0,0,0,0.75);
+    padding: 1.5625rem 1.875rem;
+    border-radius: 1rem;
+    -moz-box-shadow: 0.25rem 0.25rem 0.8125rem -0.1875rem rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0.25rem 0.25rem 0.8125rem -0.1875rem rgba(0,0,0,0.75);
+    box-shadow: 0.25rem 0.25rem 0.8125rem -0.1875rem rgba(0,0,0,0.75);
 }
 .rating-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
     color: #1b1b1b;
 }
 .rating-stars {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    font-size: 20px;
+    gap: 0.75rem;
+    font-size: 1.25rem;
     color: #fda403;
     cursor: pointer;
     transition: color 0.3s ease;
 }
-.star:hover {
+.star.star--active {
     color: #e0bf00;
 }
